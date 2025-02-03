@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Chaîne Fratern'Elles</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="fondlogo">
+        <p class="txtlogo">
+            <a href="index.html"><img src="assets/LaChaîneVECT.png" alt="Logo de l'association" height="200" width="200"></a>
+        </p>
+    </div>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="about.html">À propos</a></li>
+                <li><a href="activities.html">Nos Objectifs</a></li>
+                <li><a href="rapport.html">Rapport d'Activités</a></li>
+                <li><a href="benevole.html">Bénévolat</a></li>
+                <li><a href="don.html">Don</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="corpsb">
+        <div class="container">
+            <h1 class="titreb">Contactez-nous</h1>
+            <p class="txtb">Contactez nous ici si vous souhaitez nous aider.</p>
+            <form
+            action="https://formspree.io/f/manwwqbb"method="POST">
+                <label for="name">Nom:</label>
+                <input type="text" id="name" name="name" required>
+    
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="subject">Objet:</label>
+                <input type="text" id="subject" name="subject" required>
+    
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+    
+                <button type="submit">Envoyer</button>
+            </form>
+        </div>
+    </main>    
+<footer>
+    <p>&copy; Association La Chaîne Fratern'Elles.</p>
+    <a href="https://www.facebook.com/lachainefraternelles/?locale=fr_FR" target="_blank"><img src="assets/facebook_logo.png" alt="logo facebook" height="25" width="25"></a>
+</footer>
+</body>
+</html>
