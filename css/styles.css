@@ -62,8 +62,11 @@ textarea:focus {
 }
 
 textarea {
-  resize: vertical; /* Permet de redimensionner verticalement */
   height: 120px; /* Hauteur par défaut légèrement augmentée */
+}
+
+#nom{
+  height: 55px; /* Hauteur par défaut légèrement augmentée */
 }
                                                                                                     
 button {
